@@ -16,6 +16,8 @@ endif
 
 command! ImplementInSource lua require("cppassist").ImplementInSource()
 
+command! ImplementInSourceInVisualMode lua require("cppassist").ImplementInSourceInVisualMode()
+
 command! ImplementOutOfClass lua require("cppassist").ImplementOutOfClass()
 
 command! SwitchSourceAndHeader lua require("cppassist").SwitchSourceAndHeader()
